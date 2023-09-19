@@ -162,7 +162,7 @@ header .navbar a{
     }
 
     .section2 .section2img{
-        display: block;
+       
         width: 300px;
         
     }
@@ -173,7 +173,7 @@ header .navbar a{
 
 
     .section2 .section2text{
-        width: 100%;
+        width: 90%;
         margin: 20px;
         padding: 10px;
     }
@@ -189,7 +189,7 @@ header .navbar a{
 
         .section3 .section3text{
            
-            display: block;
+            
             width: 90%;
             text-align: center;
             margin: 0 auto;
@@ -210,11 +210,11 @@ header .navbar a{
         }
 
         .section3 .section3div .section3div1{
-            width: 100%;
-            display: block;
+            width: 90%;
             box-sizing: border-box;
             align-items: center;
             justify-content: center;
+        
             
         }
 
@@ -231,9 +231,10 @@ header .navbar a{
 
          
     .section3 .section3div .section3div2{
-        width: 100%;
-        display: block;
+        width: 90%;
         box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
        
         
         
@@ -310,13 +311,13 @@ header .navbar a{
 
         
     .section5 h2{
-        width: 100%;
+        width: 90%;
        
     }
 
     .section5 .section5div{
         width: 100%;
-        display: block;
+    
         box-sizing: border-box;
     }
 
@@ -336,7 +337,7 @@ header .navbar a{
     }
 
     .section5 .section5div .section5img img{
-        width: 95%;
+        width: 100%;
         box-sizing: border-box;
        
 
@@ -348,13 +349,12 @@ header .navbar a{
     .section6{
         width: 100%;
         box-sizing:border-box;
-        display: block;
+       
         
     }
 
     .section6 .section6expert {
-        width: 80%;
-        display: flex;
+        width: 90%;
         box-sizing: border-box;
         align-items: center;
         justify-content: center;
@@ -363,18 +363,18 @@ header .navbar a{
 
     .section6 .section6expert .section6text {
         
-        width: 60%;
-        font-size: 20px;
+        width: 50%;
+        font-size: 15px;
         box-sizing: border-box;
-        text-align: right;
-        margin-right: 20px;
+        text-align: left;
+
      
        
     }
 
     
 .section6 .section6expert .section6icon {
-    font-size: 15px;
+    font-size: 10px;
     width: 50%;
     box-sizing: border-box;
     padding-left: 80px;
@@ -382,7 +382,7 @@ header .navbar a{
 }
 
 .section6 .section6doctors {
-    width: 100%;
+    width: 90%;
 }
 
 .section6 .section6doctors .section6img{
@@ -469,9 +469,10 @@ header .navbar a{
 }
 
 .section7 .section7div2 button{
+    position: absolute;
     padding: 10px 15px;
    margin-top: -10px;
-   margin-right: 240px;
+   margin-right: 165px;
    width: 170px;
 
 }
@@ -491,7 +492,7 @@ header .navbar a{
     width: 100%;
     height: 100px;
     margin-top: 120px;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-right: 80px;
    
 }
@@ -506,24 +507,24 @@ header .navbar a{
 }
 
 .section8 .section8div2 div{
-    margin-left: 25px;
+    margin-left: 35px;
     
     
    
 }
 
 .section8 .section8div2 h2{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
 .section8 .section8div2 h4{
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .section8 .section8div2 p{
-    font-size: 13px;
-   width: 90%;
+    font-size: 11px;
+   width: 100%;
 }
 
 /*Section8 end*/
