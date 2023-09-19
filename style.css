@@ -307,18 +307,14 @@ header .appoinment button:hover{
 
     .section3{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
         box-sizing: border-box;
         padding-top:10px;
     }
     .section3 .section3text{
-        width: 90%;
+        width: 80%;
         text-align: center;
         margin: 50px;
+        
     }
 
     .section3 .section3text h1{
@@ -331,6 +327,7 @@ header .appoinment button:hover{
         font-family: Arial, Helvetica, sans-serif;
         line-height: 25px;
         color: #6d6d6d;
+        
     }
 
     .section3 .section3div .section3div1{
