@@ -1,0 +1,872 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*top section start*/
+section{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+section .social1{
+    margin-top: 15px;
+    margin: 10px;
+    margin-left: -250px;
+  
+    
+}
+section .social1 i{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(168, 167, 167);
+    padding: 0px 8px ;
+}
+section .social1 i:hover{
+    color:  #1B9CFC;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+section .contact1{
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: -250px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+section .contact1 i{
+    margin-top: 10px;
+    font-size: 15px;
+    color:  #1B9CFC;
+    padding: 0px 8px ;
+    display: flex;
+   
+}
+
+section .contact1 i p{
+    font-size: 15px;
+    color: rgb(145, 143, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 8px ;
+    margin-top: -1px;
+    font-weight: normal;
+}
+section .contact1 i,p:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+ /*top section end*/
+
+  /*Header start*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header .logo{
+    display: block;
+}
+
+header .logo img{
+    width: 150px;
+    margin: 13px;
+}
+
+header .navbar{
+    display: block;
+    margin-top: 23px;
+}
+
+header .navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 10px ;
+    color: rgb(104, 104, 104);
+    font-weight: 600;
+}
+header .navbar a:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+header .appoinment{
+    display: block;
+}
+
+header .appoinment button{
+    border: 1px solid #1B9CFC ;
+    outline: none;
+    background-color: #1B9CFC;
+    padding: 10px ;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+header .appoinment button:hover{
+    color: #1B9CFC;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+   /*Header end*/
+
+   /*Slider start*/
+.slidershow{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.slidershow .slide .healthcare{
+    position: absolute;
+    margin: 70px;
+    display: block;
+}
+
+.slidershow .slide .healthcare h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidershow .slide .healthcare h2{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slidershow .slide .healthcare p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidershow .slide .healthcare button{
+    border: 1px solid #1B9CFC ;
+    outline: none;
+    background-color: #1B9CFC;
+    padding: 10px ;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px ;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidershow .slide .healthcare button:hover{
+    color: #1B9CFC;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+
+    /*Slider end*/
+
+    /*Section1 start*/
+.section1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: #1B9CFC;
+}
+
+.section1 .service1{
+    width: 28%;
+   background-color: #1B9CFC;
+   padding-left: 10px;
+
+}
+
+.section1 .service1 i{
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.section1 .service1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section1 .service1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section1 .service1 button{
+    border: 1px solid white;
+    background-color: #1B9CFC;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.section1 .service1 button:hover{
+    color: #1B9CFC;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+    /*Section2 start*/
+
+    .section2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    .section2 .section2img{
+        display: block;
+        width: 45%;
+        margin: 20px;
+    }
+
+    .section2 .section2img img{
+        width: 400px;
+    }
+
+    .section2 .section2text{
+        width: 45%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .section2 .section2text h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+
+    .section2 .section2text h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        color: rgb(36, 36, 36);
+    }
+
+    .section2 .section2text p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(102, 102, 102);
+        line-height: 23px;
+    }
+    
+    .section2 .section2text ul{
+        margin-left: -23px;
+        list-style:square;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 23px;
+        color: rgb(102, 102, 102);
+
+    }
+
+    .section2 .section2text button{
+        padding: 10px 15px;
+        border: 1px solid #1B9CFC;
+        background-color: white;
+        color:#1B9CFC ;
+        border-radius: 5px;
+
+    }
+
+    .section2 .section2text button:hover{
+        background-color: #1B9CFC;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+
+        /*Section2 end*/
+
+         /*Section3 start*/
+
+    .section3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top:10px;
+    }
+    .section3 .section3text{
+        width: 90%;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .section3 .section3text h1{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section3 .section3text p{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        color: #6d6d6d;
+    }
+
+    .section3 .section3div .section3div1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .section3 .section3div .section3div1 .section3img{
+       width: 300px;
+       margin-left: 25px;
+       background-color: white;
+       border-top-right-radius: 5px;
+       margin-bottom: 50px;
+       box-shadow: 5px 5px 10px rgb(231, 231, 231), -5px -5px 10px rgb(231, 231, 231);
+     
+        
+    }
+
+    .section3 .section3div .section3div1 .section3img img{
+        
+        width: 300px;
+        height: 300px;
+        border-top-right-radius: 5px;
+    }
+
+    .section3 .section3div .section3div1 .section3img h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+    }
+    .section3 .section3div .section3div1 .section3img h2:hover{
+        color: #1B9CFC;
+        cursor: pointer;
+    }
+
+    
+    .section3 .section3div .section3div1 .section3img p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+        color: rgb(102, 102, 102);
+    }
+
+    .section3 .section3div .section3div1 .section3img h3{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+        color:#1B9CFC;
+        font-weight: normal;
+    }
+
+    .section3 .section3div .section3div1 .section3img:hover{
+        transform: translateY(-10px);
+        transition: 0.5s;
+    }
+
+
+    
+    .section3 .section3div .section3div2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .section3 .section3div .section3div2 .section3img{
+       width: 300px;
+       margin-left: 25px;
+       background-color: white;
+       border-top-right-radius: 5px;
+       margin-bottom: 70px;
+       box-shadow: 5px 5px 10px rgb(231, 231, 231), -5px -5px 10px rgb(231, 231, 231);
+     
+        
+    }
+
+    .section3 .section3div .section3div2 .section3img img{
+        
+        width: 300px;
+        height: 300px;
+        border-top-right-radius: 5px;
+    }
+
+    .section3 .section3div .section3div2 .section3img h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+    }
+    .section3 .section3div .section3div2 .section3img h2:hover{
+        color: #1B9CFC;
+        cursor: pointer;
+    }
+
+    
+    .section3 .section3div .section3div2 .section3img p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+        color: rgb(102, 102, 102);
+    }
+
+    .section3 .section3div .section3div2 .section3img h3{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 25px;
+        color:#1B9CFC;
+        font-weight: normal;
+    }
+
+    .section3 .section3div .section3div2 .section3img h3:hover {
+        text-decoration: underline;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .section3 .section3div .section3div2 .section3img:hover{
+        transform: translateY(-10px);
+        transition: 0.5s;
+    }
+          /*Section3 end*/
+
+    /*Section4 start*/
+    .section4{
+        width: 100%;
+        height: 450px;
+        box-sizing: border-box;
+        background-color: black;
+        
+    }
+
+    .section4 img{
+        width: 100%;
+        height: 450px;
+        position: relative;
+        opacity: 0.6;
+        
+    }
+
+    .section4 h1{
+        position: absolute;
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-top: 100px;
+    }
+
+    .section4 p{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        line-height: 30px;
+    }
+
+    
+    .section4 h2{
+        position: absolute;
+        font-size: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 220px;
+        font-weight:100;
+    }
+
+    .section4 h3{
+        position: absolute;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 370px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+
+    /*Section4 end*/
+
+     /*Section5 start*/
+    .section5{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: white;
+        margin-bottom: 70px;
+    }
+
+    .section5 h2{
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+       line-height: 150px;
+    }
+
+    .section5 .section5div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section5 .section5div .section5text{
+        width: 45%;
+        padding: 15px;
+       
+    }
+
+    .section5 .section5div .section5text i{
+        font-size: 50px;
+        background-color: #1B9CFC;
+        padding: 15px;
+        color: white;
+        border-radius: 50%;
+    }
+
+    .section5 .section5div .section5text h3{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section5 .section5div .section5text p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+
+    .section5 .section5div .section5img{
+        width: 45%;
+    }
+      /*Section5 end*/
+
+           /*Section6 start*/
+.section6{
+    width: 100%;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.section6 .section6expert {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section6 .section6expert .section6text{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #414141;
+    margin-left: -120px;
+}
+
+.section6 .section6expert .section6icon{
+    font-size: 20px;
+    margin-right: -190px;
+
+}
+
+.section6 .section6expert .section6icon i{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px 10px;
+    color: #9b9b9b;
+    border-radius: 5px;
+    font-weight: normal;
+    margin-left: 10px;
+    box-sizing: border-box;
+   
+}
+
+.section6 .section6expert .section6icon i:hover{
+    background-color: #1B9CFC;
+    color: white;
+    border: white;
+    transition: 0.5s;
+}
+
+.section6 .section6doctors {
+    width: 100%;
+}
+
+.section6 .section6doctors .section6img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section6img .section6img1{
+    width: 200px;
+    margin-left: 10px;
+    border: 1px solid;
+    margin: 50px 30px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(231, 231, 231), -5px -5px 10px rgb(231, 231, 231) ;
+    margin-bottom: 100px;
+}
+
+.section6img .section6img1 img{
+    width: 200px;
+}
+
+.section6img .section6img1 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section6img .section6img1 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6d6d6d;
+}
+
+.section6img .section6img1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.section6img .section6img1:hover h2{
+    color: #1B9CFC;
+    transition: 0.5s;
+}
+            /*Section6 end*/
+     /*Section7 start*/ 
+.section7{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section7 .section7div1{
+    width: 50%;
+    height: 250px;
+    background:#1B9CFC ;
+    
+    
+}
+
+.section7 .section7div1 img{
+    width: 100%;
+    height: 250px;
+    opacity: 0.2;
+
+   
+}
+
+.section7 .section7div1 h2{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    margin-top: -165px;
+
+   
+   
+}
+
+.section7 .section7div1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    color: white;
+    padding-bottom: 33px;
+    
+}
+
+.section7 .section7div1 button{
+    padding: 13px 17px;
+    position: absolute;
+    right: 54%;
+    margin-top: -105px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background:transparent;
+    color: white; 
+}
+
+.section7 .section7div1 button:hover{
+    background-color: white;
+    color: #1B9CFC;
+    transition: 0.5s;
+}
+
+
+
+.section7 .section7div2{
+    width: 50%;
+    height: 250px;
+    background:#46afff ;
+    
+    
+}
+
+.section7 .section7div2 img{
+    width: 100%;
+    height: 250px;
+    opacity: 0.2;
+
+   
+}
+
+.section7 .section7div2 h2{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    margin-top: -165px;
+
+   
+   
+}
+
+.section7 .section7div2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    color: white;
+    padding-bottom: 33px;
+    
+}
+
+.section7 .section7div2 button{
+    padding: 13px 17px;
+    position: absolute;
+    right: 4%;
+    margin-top: -105px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background:transparent;
+    color: white; 
+}
+
+.section7 .section7div2 button:hover{
+    background-color: white;
+    color: #1B9CFC;
+    transition: 0.5s;
+}
+   
+     
+       /*Section7 end*/
+
+/*Section8 start*/
+.section8{
+    background-color: #222f3e;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section8 .section8div1{
+    width: 30%;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.section8 .section8div1 p{
+    color: rgb(177, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.section8 .section8div1 i{
+    font-size: 20px;
+    background-color: #535353;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: #a5a5a5;
+    margin-left: -5px;
+    margin-right: 15px;
+}
+
+.section8 .section8div1 i:hover{
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section8 .section8div2{
+    width: 60%;
+    display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   margin-top: 105px;
+   margin-bottom: 100px;
+   
+}
+
+.section8 .section8div2 div{
+    width: 19%;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.section8 .section8div2 h2{
+    
+    color: white;
+}
+
+
+.section8 .section8div2 h4{
+    color:#a5a5a5;
+    font-weight: normal;
+}
+.section8 .section8div2 h4:hover{
+    color: #1B9CFC;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section8 .section8div2 p{
+    color:#a5a5a5 ;
+}
+      /*Section8 end*/
+
+      /*Footer start*/
+    footer{
+        box-sizing: border-box;
+        margin-top: 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer span{
+        color: #1B9CFC;
+        font-weight: bold;
+    }
+          /*Footer end*/
