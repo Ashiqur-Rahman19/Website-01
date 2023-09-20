@@ -307,6 +307,7 @@ header .appoinment button:hover{
 
     .section3{
         width: 100%;
+        
         box-sizing: border-box;
         padding-top:10px;
     }
@@ -465,6 +466,7 @@ header .appoinment button:hover{
         height: 450px;
         position: relative;
         opacity: 0.6;
+        margin-top: -18px;
         
     }
 
